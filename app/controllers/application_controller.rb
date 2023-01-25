@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
     if @comp_move == "rock"
       @outcome = "tied"
     elsif @comp_move == "paper"
-      @outcome = "lose"
+      @outcome = "lost"
     elsif @comp_move == "scissors"
       @outcome = "won"
     end 
